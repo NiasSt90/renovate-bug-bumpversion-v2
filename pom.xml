@@ -6,20 +6,17 @@
 	<artifactId>bumpversion</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
-	<properties>
-		<keycloak.version>12.0.1</keycloak.version>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.keycloak</groupId>
 			<artifactId>keycloak-spring-security-adapter</artifactId>
-			<version>${keycloak.version}</version>
+			<version>12.0.1</version>
 		</dependency>
 		<dependency>
-			<groupId>org.keycloak</groupId>
-			<artifactId>keycloak-authz-client</artifactId>
-			<version>${keycloak.version}</version>
+			<groupId>org.liquibase</groupId>
+			<artifactId>liquibase-core</artifactId>
+			<scope>compile</scope>
+			<version>4.4.3</version>
 		</dependency>
 	</dependencies>
 
